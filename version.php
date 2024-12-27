@@ -26,8 +26,8 @@
 
 $plugin->component = 'customfield_training';
 $plugin->version   = 2024091400;
-$plugin->requires  = 2023100902.00; // 4.3.2
-$plugin->supported = [403, 403];
+$plugin->requires  = 2024100700; // 4.5.0
+$plugin->supported = [405, 405];
 
 $plugin->dependencies = [
     'local_openlms' => 2024032500,
